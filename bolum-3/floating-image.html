@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 300px;
+        float: left;
+        margin-right: 10px;
+      }
+      p{
+        border: 2px solid gray;
+        padding: 5px;
+      }
+      .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatum rem
+      nulla ut dignissimos assumenda quibusdam facilis eius sunt, commodi
+      accusantium iure molestias ipsa hic, accusamus tenetur quas aliquam ipsum?
+    </p>
+
+    <p class="clearfix">
+      <img src="rowing.jpeg" alt=""/>
+      <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+        eius dolor maiores explicabo culpa quos placeat odit temporibus!
+        Laudantium ipsum fuga dolorem similique corporis recusandae aliquam
+        doloremque ad quia ea?
+      </span>
+    </p>
+  </body>
+</html>

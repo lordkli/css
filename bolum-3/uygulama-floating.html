@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      h1{
+        margin: 0;
+      }
+      #header,
+      footer {
+        color: #8fe3cf;
+        background-color: #256d85;
+        padding: 15px;
+      }
+      .col {
+        float: left;
+        padding: 15px 15px 15px 0px;
+      }
+      .menu {
+        width: 25%;
+        float: left;
+      }
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #002b5b;
+        color: #fff;
+      }
+      .menu li:hover{
+        cursor: pointer;
+        background-color: #256D85;
+      }
+      .content {
+        width: 75%;
+        float: left;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <h2>Header</h2>
+    </header>
+
+    <main class="clearfix">
+      <div class="menu col">
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+      <div class="content">
+        <h2>Komple Web Gelistirme Egitimi</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed
+          nemo fugit nihil nulla, eligendi possimus est autem. Itaque quam, vero
+          officiis fugiat possimus quibusdam reprehenderit temporibus
+          voluptatibus mollitia harum!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          animi nostrum voluptates aut in sequi ducimus odit tempore fuga, sint
+          modi sapiente perspiciatis praesentium architecto commodi consectetur
+          quisquam sunt optio!
+        </p>
+      </div>
+    </main>
+    <footer id="footer">
+      <h2>Footer</h2>
+    </footer>
+  </body>
+</html>
